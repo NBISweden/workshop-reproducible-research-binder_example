@@ -1,3 +1,6 @@
+name: binder-example
+channels:
+  - conda-forge
 dependencies:
   - python
   - altair
