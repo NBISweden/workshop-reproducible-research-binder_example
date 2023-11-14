@@ -1,0 +1,14 @@
+name: binder-example
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python
+  - altair
+  - pandas
+  - jupyterlab
+  - matplotlib
+  - pip
+  - pip:
+    - jupyterlab-quarto
